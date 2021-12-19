@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 23px;
+  margin-left: 22%;
+
+  padding: 25px;
+  width: 50%;
+}
+span {
+  font-family: math;
+  font-weight: bold;
+  padding: 16px;
+}
+.inp {
+  padding: 13px;
+  box-sizing: border-box;
+  color: gray;
+  border-style: double;
+  border-radius: 18px;
+}
+.div1 {
+  position: absolute;
+  z-index: 1;
+}
+.div2 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 2%;
+  display: none;
+}
+
+.action:hover .div2 {
+  display: block;
+}
+.msg {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: gray;
+  padding: 5px;
+  box-sizing: border-box;
+}
+button:hover {
+  cursor: pointer;
+}
+.hides:hover .check {
+  display: none;
+  cursor: pointer;
+}
